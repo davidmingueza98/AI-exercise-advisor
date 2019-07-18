@@ -1,0 +1,708 @@
+; Sun Dec 09 11:25:36 CET 2018
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([ontologiaEjercicios_Class0] of  Aerobicos
+
+	(DIficultad Facil)
+	(nomEjercico "Yoga")
+	(numero+de+dias 5)
+	(ParteDelCuerpo Cardio)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10027]
+		[ontologiaEjercicios_Class10026]
+		[ontologiaEjercicios_Class10065]
+		[ontologiaEjercicios_Class10047]
+		[ontologiaEjercicios_Class10016]
+		[ontologiaEjercicios_Class10053])
+	(tiempo 40))
+
+([ontologiaEjercicios_Class10003] of  Sintomas
+
+	(ejerciciosBuenos Aerobicos)
+	(nombreSimptomas "Tension arterial")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10004] of  Aerobicos
+
+	(DIficultad Dificil)
+	(nomEjercico "Danza")
+	(numero+de+dias 2)
+	(ParteDelCuerpo Cardio)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10027]
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10056]
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10049]
+		[ontologiaEjercicios_Class10065]
+		[ontologiaEjercicios_Class10050]
+		[ontologiaEjercicios_Class10019]
+		[ontologiaEjercicios_Class10003])
+	(tiempo 30))
+
+([ontologiaEjercicios_Class10005] of  Aerobicos
+
+	(DIficultad Normal)
+	(nomEjercico "Natacion")
+	(numero+de+dias 5)
+	(ParteDelCuerpo Cardio)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10027]
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10026]
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10016]
+		[ontologiaEjercicios_Class10049]
+		[ontologiaEjercicios_Class10065]
+		[ontologiaEjercicios_Class10019])
+	(tiempo 30))
+
+([ontologiaEjercicios_Class10006] of  Aerobicos
+
+	(DIficultad Normal)
+	(nomEjercico "Pedalear")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Cardio)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10027]
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10016]
+		[ontologiaEjercicios_Class10049]
+		[ontologiaEjercicios_Class10019])
+	(tiempo 20))
+
+([ontologiaEjercicios_Class10007] of  Aerobicos
+
+	(DIficultad Dificil)
+	(nomEjercico "Remar")
+	(numero+de+dias 2)
+	(ParteDelCuerpo Cardio)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10049]
+		[ontologiaEjercicios_Class10062]
+		[ontologiaEjercicios_Class10065]
+		[ontologiaEjercicios_Class10019])
+	(tiempo 15))
+
+([ontologiaEjercicios_Class10008] of  Aerobicos
+
+	(DIficultad Normal)
+	(nomEjercico "Subir Escaleras")
+	(numero+de+dias 5)
+	(ParteDelCuerpo Cardio)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10027]
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10049]
+		[ontologiaEjercicios_Class10047]
+		[ontologiaEjercicios_Class10019]
+		[ontologiaEjercicios_Class10003])
+	(tiempo 15))
+
+([ontologiaEjercicios_Class10009] of  Musculacion
+
+	(DIficultad Facil)
+	(nomEjercico "Levantar Brazos")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Brazos)
+	(tiempo 5))
+
+([ontologiaEjercicios_Class10010] of  Musculacion
+
+	(DIficultad Dificil)
+	(nomEjercico "Flexion hombros")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Brazos)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10035]
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10016]
+		[ontologiaEjercicios_Class10018]
+		[ontologiaEjercicios_Class10019])
+	(tiempo 5))
+
+([ontologiaEjercicios_Class10011] of  Musculacion
+
+	(DIficultad Facil)
+	(nomEjercico "Curl de biceps")
+	(numero+de+dias 2)
+	(ParteDelCuerpo Brazos)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10036]
+		[ontologiaEjercicios_Class10016]
+		[ontologiaEjercicios_Class10018]
+		[ontologiaEjercicios_Class10019])
+	(tiempo 10))
+
+([ontologiaEjercicios_Class10012] of  Musculacion
+
+	(DIficultad Normal)
+	(nomEjercico "Extension triceps")
+	(numero+de+dias 2)
+	(ParteDelCuerpo Brazos)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10016]
+		[ontologiaEjercicios_Class10018]
+		[ontologiaEjercicios_Class10019])
+	(tiempo 10))
+
+([ontologiaEjercicios_Class10013] of  Musculacion
+
+	(DIficultad Normal)
+	(nomEjercico "Levantarse de silla")
+	(numero+de+dias 2)
+	(ParteDelCuerpo Cadera)
+	(tiempo 5))
+
+([ontologiaEjercicios_Class10016] of  Sintomas
+
+	(ejerciciosBuenos Musculacion)
+	(nombreSimptomas "Debilidad muscular")
+	(tipo Musculacion))
+
+([ontologiaEjercicios_Class10017] of  Sintomas
+
+	(ejerciciosBuenos Musculacion)
+	(nombreSimptomas "Baja masa muscular")
+	(tipo Musculacion))
+
+([ontologiaEjercicios_Class10018] of  Sintomas
+
+	(ejerciciosBuenos Musculacion)
+	(nombreSimptomas "Dependencia")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10019] of  Sintomas
+
+	(ejerciciosBuenos
+		Musculacion
+		Aerobicos)
+	(nombreSimptomas "Peso alto")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10020] of  Sintomas
+
+	(ejerciciosBuenos
+		Musculacion
+		Equilibrio
+		Flexibilidad)
+	(nombreSimptomas "Caidas")
+	(tipo Musculacion))
+
+([ontologiaEjercicios_Class10021] of  Sintomas
+
+	(ejerciciosBuenos Musculacion)
+	(nombreSimptomas "Osteporosis")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10022] of  Sintomas
+
+	(ejerciciosBuenos Musculacion)
+	(nombreSimptomas "Poliatrosis")
+	(tipo Musculacion))
+
+([ontologiaEjercicios_Class10025] of  Sintomas
+
+	(ejerciciosBuenos Aerobicos)
+	(nombreSimptomas "Colesterol alto")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10026] of  Sintomas
+
+	(ejerciciosBuenos Aerobicos)
+	(nombreSimptomas "Baja capacidad respiratoria")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10027] of  Sintomas
+
+	(ejerciciosBuenos Aerobicos)
+	(nombreSimptomas "Ansiedad")
+	(tipo Psicologico))
+
+([ontologiaEjercicios_Class10028] of  Flexibilidad
+
+	(DIficultad Facil)
+	(nomEjercico "Rotacion de hombros")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Brazos)
+	(tiempo 20))
+
+([ontologiaEjercicios_Class10029] of  Flexibilidad
+
+	(DIficultad Facil)
+	(nomEjercico "Estiramento cuadriceps")
+	(numero+de+dias 4)
+	(ParteDelCuerpo Piernas)
+	(tiempo 20))
+
+([ontologiaEjercicios_Class10030] of  Flexibilidad
+
+	(DIficultad Dificil)
+	(nomEjercico "Rotacion doble de cadera")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Cadera)
+	(tiempo 20))
+
+([ontologiaEjercicios_Class10031] of  Flexibilidad
+
+	(DIficultad Facil)
+	(nomEjercico "Rotacion simple de cadera")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Cadera)
+	(tiempo 20))
+
+([ontologiaEjercicios_Class10035] of  Sintomas
+
+	(ejerciciosBuenos Flexibilidad)
+	(nombreSimptomas "Baja elesticidad")
+	(tipo Musculacion))
+
+([ontologiaEjercicios_Class10036] of  Sintomas
+
+	(ejerciciosBuenos Flexibilidad)
+	(nombreSimptomas "Debilidad de ligamientos")
+	(tipo Musculacion))
+
+([ontologiaEjercicios_Class10044] of  Enfermedades
+
+	(EjerciciosAdecuados Aerobicos)
+	(nomEnfermetat "Cardiacas")
+	(SintomasEnfermetat
+		[ontologiaEjercicios_Class10003]
+		[ontologiaEjercicios_Class10047]
+		[ontologiaEjercicios_Class10051]
+		[ontologiaEjercicios_Class10050]
+		[ontologiaEjercicios_Class10025]
+		[ontologiaEjercicios_Class10049]))
+
+([ontologiaEjercicios_Class10047] of  Sintomas
+
+	(ejerciciosBuenos Aerobicos)
+	(nombreSimptomas "Estres")
+	(tipo Psicologico))
+
+([ontologiaEjercicios_Class10049] of  Sintomas
+
+	(ejerciciosBuenos Aerobicos)
+	(nombreSimptomas "Diabetes")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10050] of  Sintomas
+
+	(ejerciciosBuenos Aerobicos)
+	(nombreSimptomas "Oclusion coronaria")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10051] of  Sintomas
+
+	(ejerciciosBuenos Aerobicos)
+	(nombreSimptomas "Prefusion miocardica")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10053] of  Sintomas
+
+	(ejerciciosBuenos
+		Aerobicos
+		Musculacion)
+	(nombreSimptomas "Baja capacidad fisica")
+	(tipo Musculacion))
+
+([ontologiaEjercicios_Class10054] of  Enfermedades
+
+	(EjerciciosAdecuados Aerobicos)
+	(nomEnfermetat "Coronarias")
+	(SintomasEnfermetat
+		[ontologiaEjercicios_Class10003]
+		[ontologiaEjercicios_Class10025]))
+
+([ontologiaEjercicios_Class10055] of  Enfermedades
+
+	(EjerciciosAdecuados
+		Aerobicos
+		Musculacion
+		Flexibilidad)
+	(nomEnfermetat "Osteoporosis")
+	(SintomasEnfermetat
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10020]
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10021]
+		[ontologiaEjercicios_Class10056]))
+
+([ontologiaEjercicios_Class10056] of  Sintomas
+
+	(ejerciciosBuenos
+		Flexibilidad
+		Musculacion)
+	(nombreSimptomas "Baja densidad osea")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10057] of  Enfermedades
+
+	(EjerciciosAdecuados
+		Aerobicos
+		Flexibilidad
+		Musculacion
+		Equilibrio)
+	(nomEnfermetat "Hipertension")
+	(SintomasEnfermetat
+		[ontologiaEjercicios_Class10003]
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10016]))
+
+([ontologiaEjercicios_Class10058] of  Enfermedades
+
+	(EjerciciosAdecuados Aerobicos)
+	(nomEnfermetat "Diabetes")
+	(SintomasEnfermetat
+		[ontologiaEjercicios_Class10003]
+		[ontologiaEjercicios_Class10059]))
+
+([ontologiaEjercicios_Class10059] of  Sintomas
+
+	(ejerciciosBuenos Aerobicos)
+	(nombreSimptomas "intolerancia a la insulina")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10060] of  Enfermedades
+
+	(EjerciciosAdecuados
+		Aerobicos
+		Musculacion)
+	(nomEnfermetat "Artrosis")
+	(SintomasEnfermetat
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10049]
+		[ontologiaEjercicios_Class10053]))
+
+([ontologiaEjercicios_Class10061] of  Enfermedades
+
+	(EjerciciosAdecuados
+		Aerobicos
+		Equilibrio)
+	(nomEnfermetat "Fragilidad")
+	(SintomasEnfermetat
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10062]))
+
+([ontologiaEjercicios_Class10062] of  Sintomas
+
+	(ejerciciosBuenos
+		Aerobicos
+		Musculacion)
+	(nombreSimptomas "Mala alimentacion")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10063] of  Enfermedades
+
+	(EjerciciosAdecuados Equilibrio)
+	(nomEnfermetat "Incontinencia urinaria")
+	(SintomasEnfermetat
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10064]
+		[ontologiaEjercicios_Class10065]))
+
+([ontologiaEjercicios_Class10064] of  Sintomas
+
+	(ejerciciosBuenos Equilibrio)
+	(nombreSimptomas "Incontinencia")
+	(tipo Otros))
+
+([ontologiaEjercicios_Class10065] of  Sintomas
+
+	(ejerciciosBuenos
+		Equilibrio
+		Flexibilidad)
+	(nombreSimptomas "Mala movilidad")
+	(tipo Musculacion))
+
+([ontologiaEjercicios_Class10067] of  Equilibrio
+
+	(DIficultad Facil)
+	(nomEjercico "Caminar en linea recta")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10036]
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10065])
+	(tiempo 10))
+
+([ontologiaEjercicios_Class10068] of  Equilibrio
+
+	(DIficultad Normal)
+	(nomEjercico "Bajar escaleras")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10056]
+		[ontologiaEjercicios_Class10035]
+		[ontologiaEjercicios_Class10020]
+		[ontologiaEjercicios_Class10065])
+	(tiempo 15))
+
+([ontologiaEjercicios_Class10069] of  Equilibrio
+
+	(DIficultad Dificil)
+	(nomEjercico "Caminar de puntillas")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10027]
+		[ontologiaEjercicios_Class10020]
+		[ontologiaEjercicios_Class10036]
+		[ontologiaEjercicios_Class10016]
+		[ontologiaEjercicios_Class10065])
+	(tiempo 8))
+
+([ontologiaEjercicios_Class10070] of  Equilibrio
+
+	(DIficultad Dificil)
+	(nomEjercico "Caminar de talones")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10035]
+		[ontologiaEjercicios_Class10020]
+		[ontologiaEjercicios_Class10036]
+		[ontologiaEjercicios_Class10016])
+	(tiempo 8))
+
+([ontologiaEjercicios_Class10071] of  Equilibrio
+
+	(DIficultad Facil)
+	(nomEjercico "Flexion plantar")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(PrevieneSintomas [ontologiaEjercicios_Class10017])
+	(tiempo 10))
+
+([ontologiaEjercicios_Class10072] of  Equilibrio
+
+	(DIficultad Facil)
+	(nomEjercico "Flexion de rodilla")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(tiempo 10))
+
+([ontologiaEjercicios_Class10073] of  Equilibrio
+
+	(DIficultad Normal)
+	(nomEjercico "Flexion de cadera")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Cadera)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10056]
+		[ontologiaEjercicios_Class10035]
+		[ontologiaEjercicios_Class10020]
+		[ontologiaEjercicios_Class10036]
+		[ontologiaEjercicios_Class10016])
+	(tiempo 10))
+
+([ontologiaEjercicios_Class10074] of  Equilibrio
+
+	(DIficultad Normal)
+	(nomEjercico "Extension de cadera")
+	(numero+de+dias 4)
+	(ParteDelCuerpo Cadera)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10056]
+		[ontologiaEjercicios_Class10035]
+		[ontologiaEjercicios_Class10016])
+	(tiempo 10))
+
+([ontologiaEjercicios_Class10075] of  Equilibrio
+
+	(DIficultad Dificil)
+	(nomEjercico "Levantamiento lateral de pierna")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10035]
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10020]
+		[ontologiaEjercicios_Class10016])
+	(tiempo 8))
+
+([ontologiaEjercicios_Class10077] of  Musculacion
+
+	(DIficultad Facil)
+	(nomEjercico "Extension de rodillas")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(tiempo 10))
+
+([ontologiaEjercicios_Class20003] of  Musculacion
+
+	(DIficultad Dificil)
+	(nomEjercico "Sentadillas")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(tiempo 10))
+
+([ontologiaEjercicios_Class20004] of  Flexibilidad
+
+	(DIficultad Facil)
+	(nomEjercico "Estiramiento cervicales")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(tiempo 8))
+
+([ontologiaEjercicios_Class3] of  Aerobicos
+
+	(DIficultad Facil)
+	(nomEjercico "Caminar")
+	(numero+de+dias 7)
+	(ParteDelCuerpo Cardio)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10003]
+		[ontologiaEjercicios_Class10027]
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10025]
+		[ontologiaEjercicios_Class10049]
+		[ontologiaEjercicios_Class10065]
+		[ontologiaEjercicios_Class10050]
+		[ontologiaEjercicios_Class10019])
+	(tiempo 30))
+
+([ontologiaEjercicios_Class30003] of  Aerobicos
+
+	(DIficultad Dificil)
+	(nomEjercico "Tennis")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Brazos)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10035]
+		[ontologiaEjercicios_Class10036]
+		[ontologiaEjercicios_Class10016]
+		[ontologiaEjercicios_Class10065])
+	(tiempo 30))
+
+([ontologiaEjercicios_Class30005] of  Aerobicos
+
+	(DIficultad Dificil)
+	(nomEjercico "Esquiar")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(PrevieneSintomas
+		[ontologiaEjercicios_Class10053]
+		[ontologiaEjercicios_Class10026]
+		[ontologiaEjercicios_Class10035]
+		[ontologiaEjercicios_Class10017]
+		[ontologiaEjercicios_Class10020]
+		[ontologiaEjercicios_Class10036]
+		[ontologiaEjercicios_Class10016]
+		[ontologiaEjercicios_Class10065])
+	(tiempo 45))
+
+([ontologiaEjercicios_Class30006] of  Flexibilidad
+
+	(DIficultad Facil)
+	(nomEjercico "Estiramiento tendones muslo")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(tiempo 5))
+
+([ontologiaEjercicios_Class30007] of  Flexibilidad
+
+	(DIficultad Normal)
+	(nomEjercico "Estiramineto pantorillas")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(tiempo 10))
+
+([ontologiaEjercicios_Class30008] of  Flexibilidad
+
+	(DIficultad Facil)
+	(nomEjercico "Estiramiento tobillos")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(tiempo 10))
+
+([ontologiaEjercicios_Class30009] of  Flexibilidad
+
+	(DIficultad Normal)
+	(nomEjercico "Estiramiento triceps")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Brazos)
+	(tiempo 5))
+
+([ontologiaEjercicios_Class30010] of  Flexibilidad
+
+	(DIficultad Facil)
+	(nomEjercico "Estiramineto muneca")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Brazos)
+	(tiempo 5))
+
+([ontologiaEjercicios_Class30011] of  Aerobicos
+
+	(DIficultad Facil)
+	(nomEjercico "Golf")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Brazos)
+	(tiempo 30))
+
+([ontologiaEjercicios_Class30012] of  Aerobicos
+
+	(DIficultad Facil)
+	(nomEjercico "Aquagym")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Cardio)
+	(tiempo 30))
+
+([ontologiaEjercicios_Class30013] of  Musculacion
+
+	(DIficultad Dificil)
+	(nomEjercico "Abdominales")
+	(numero+de+dias 5)
+	(ParteDelCuerpo Cardio)
+	(tiempo 10))
+
+([ontologiaEjercicios_Class30014] of  Musculacion
+
+	(DIficultad Normal)
+	(nomEjercico "Pectorales")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(tiempo 5))
+
+([ontologiaEjercicios_Class30015] of  Musculacion
+
+	(DIficultad Facil)
+	(nomEjercico "Deltoides")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Brazos)
+	(tiempo 5))
+
+([ontologiaEjercicios_Class30016] of  Flexibilidad
+
+	(DIficultad Facil)
+	(nomEjercico "Estiramiento isquiotibiales")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(tiempo 5))
+
+([ontologiaEjercicios_Class30017] of  Equilibrio
+
+	(DIficultad Normal)
+	(nomEjercico "Estiramiento separadores y retadores")
+	(numero+de+dias 3)
+	(ParteDelCuerpo Piernas)
+	(tiempo 5))

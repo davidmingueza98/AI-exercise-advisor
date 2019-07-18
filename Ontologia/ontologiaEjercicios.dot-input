@@ -1,0 +1,12 @@
+digraph "ontologiaEjercicios" {
+
+"Aerobicos" [shape=box, label="Aerobicos", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Ejercicios"->"Aerobicos" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Equilibrio" [shape=box, label="Equilibrio", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Ejercicios"->"Equilibrio" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Flexibilidad" [shape=box, label="Flexibilidad", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Ejercicios"->"Flexibilidad" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Musculacion" [shape=box, label="Musculacion", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Ejercicios"->"Musculacion" [dir=back, label=isa, color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+"Ejercicios" [shape=box, label="Ejercicios", color="0.0,0.0,0.0", fontcolor="0.0,0.0,0.0"]
+}

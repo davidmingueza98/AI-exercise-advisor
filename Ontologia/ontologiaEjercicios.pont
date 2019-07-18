@@ -1,0 +1,288 @@
+; Sun Dec 09 11:25:36 CET 2018
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot EjerciciosAerobicos
+		(type SYMBOL)
+		(allowed-values Caminar Danza Nadar Remar SubirEscaleras)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot PrevieneSintomas
+		(type INSTANCE)
+;+		(allowed-classes Sintomas)
+		(create-accessor read-write))
+	(single-slot TensionArterial
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Incontinencia
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot EjercicoEspecificosBuenos
+		(type INSTANCE)
+;+		(allowed-classes Ejercicios)
+		(create-accessor read-write))
+	(multislot numero+de+dias
+		(type INTEGER)
+		(default 3)
+		(create-accessor read-write))
+	(multislot SintomasEnfermetat
+		(type INSTANCE)
+;+		(allowed-classes Sintomas)
+		(create-accessor read-write))
+	(single-slot Diabetes
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot EjerciciosFlexibilidad
+		(type SYMBOL)
+		(allowed-values Pesas Gimnasia Natacion RotacionSImpleCadera RotacionDobleCadera EstiramientoCuadriceps RotacionHombros)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot BajaCapacidadFisisca
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot CardiopatiaIsquemica
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot BajaDensidadOsea
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot ParteDelCuerpo
+		(type SYMBOL)
+		(allowed-values Piernas Cadera Brazos Cardio)
+		(default Piernas)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot EjerciciosGenerales
+		(type SYMBOL)
+		(allowed-values Nadar Danza Caminar Gimnasia Pesas)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Desequilibrio
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Tiempo
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot BajaMasaMusucular
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot ejerciciosBuenos
+		(type SYMBOL)
+;+		(allowed-parents Ejercicios)
+		(create-accessor read-write))
+	(single-slot tiempo
+		(type INTEGER)
+		(default 45)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot EjerciciosEspecificosMalos
+		(type INSTANCE)
+;+		(allowed-classes Ejercicios)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot nomEnfermetat
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot ontologiaEjercicios_Class1
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Previene
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Repeticiones
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot ColesterolAlto
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot EjerciciosMusculacion
+		(type SYMBOL)
+		(allowed-values LevantarBrazos FlexionHombros Biceps ExtensionTriceps LevantarseDeSilla FlexionPlantar FlexionRodilla)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot EjerciciosAdecuados
+		(type SYMBOL)
+;+		(allowed-parents Ejercicios)
+		(create-accessor read-write))
+	(single-slot ontologiaEjercicios_Class23
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Enfermedad
+		(type SYMBOL)
+		(allowed-values Cardiaca Coronaria Osteporosis Artrosis)
+		(create-accessor read-write))
+	(single-slot KB_632756_Class4
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot nombreSimptomas
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot numeroDeSessiones
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tipo
+		(type SYMBOL)
+		(allowed-values Musculacion Psicologico Otros)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot EjercicoConcreto
+		(type SYMBOL)
+		(allowed-values Nadar SubirEscaleras Danza Remar Pedalear)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Ejercicio
+		(type SYMBOL)
+;+		(allowed-parents Ejercicios)
+		(create-accessor read-write))
+	(single-slot OclusionCoronaria
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Estres
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot nomEjercico
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot DIficultad
+		(type SYMBOL)
+		(allowed-values Facil Normal Dificil)
+		(default Facil)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Obesidad
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot VecesPorSemana
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Sintomas
+	(is-a USER)
+	(role concrete)
+	(multislot EjercicoEspecificosBuenos
+		(type INSTANCE)
+;+		(allowed-classes Ejercicios)
+		(create-accessor read-write))
+	(single-slot tipo
+		(type SYMBOL)
+		(allowed-values Musculacion Psicologico Otros)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot nombreSimptomas
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot ejerciciosBuenos
+		(type SYMBOL)
+;+		(allowed-parents Ejercicios)
+		(create-accessor read-write))
+	(single-slot EjerciciosEspecificosMalos
+		(type INSTANCE)
+;+		(allowed-classes Ejercicios)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Ejercicios
+	(is-a USER)
+	(role concrete)
+	(single-slot DIficultad
+		(type SYMBOL)
+		(allowed-values Facil Normal Dificil)
+		(default Facil)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot numero+de+dias
+		(type INTEGER)
+		(default 3)
+		(create-accessor read-write))
+	(single-slot ParteDelCuerpo
+		(type SYMBOL)
+		(allowed-values Piernas Cadera Brazos Cardio)
+		(default Piernas)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot PrevieneSintomas
+		(type INSTANCE)
+;+		(allowed-classes Sintomas)
+		(create-accessor read-write))
+	(single-slot nomEjercico
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tiempo
+		(type INTEGER)
+		(default 45)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Aerobicos
+	(is-a Ejercicios)
+	(role concrete))
+
+(defclass Flexibilidad
+	(is-a Ejercicios)
+	(role concrete))
+
+(defclass Musculacion
+	(is-a Ejercicios)
+	(role concrete))
+
+(defclass Equilibrio
+	(is-a Ejercicios)
+	(role concrete))
+
+(defclass Enfermedades
+	(is-a USER)
+	(role concrete)
+	(multislot SintomasEnfermetat
+		(type INSTANCE)
+;+		(allowed-classes Sintomas)
+		(create-accessor read-write))
+	(single-slot nomEnfermetat
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot EjerciciosAdecuados
+		(type SYMBOL)
+;+		(allowed-parents Ejercicios)
+		(create-accessor read-write)))
