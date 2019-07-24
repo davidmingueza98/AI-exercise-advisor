@@ -1,5 +1,5 @@
 # AI-exercise-advisor
-An AI engine to recommend phisic exercise to people with more than 65 years. The current version of the program is in Spanish. To visualize the ontology you have to download Protege.
+An AI engine to recommend phisic exercise to people with more than 65 years. The current version of the program is in Spanish. To visualize the ontology you have to download Protégé.
 
 ## How to compile
 The executable of the interpret of CLIPS language is already in the repository so just do:
