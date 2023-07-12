@@ -1,15 +1,36 @@
 # AI-exercise-advisor
-An AI engine to recommend phisic exercise to people with more than 65 years. The current version of the program is in Spanish. To visualize the ontology you have to download Protégé.
+AI to recommend exercise to people with more than 65 years. The current version of the engine is in Spanish.
 
-## How to compile
-The executable of the interpret of CLIPS language is already in the repository so just do:
+## Introduction
+The AI is a [Knowledge-Based System](https://kmslh.com/glossary/knowledge-based-system/#:~:text=A%20knowledge%2Dbased%20system%20(KBS,%2C%20learning%2C%20and%20other%20activities)).
+The system captures and infers knowledge from sources defined in an ontology.
+It can assist solving problems and complex issues. They are used to help decision-making, learning and other tasks.
 
+The KBS defined in this project generates exercise programs matching user qualities by their age and condition.
+The objective of the physical activities are to keep an optimal health level and to lower diseases risk.
+The population section included for this study are **people with more than 65 years old**.
+
+The sources used are very wide. They have been extracted from experts about healthy habits for the elderly,
+as well as exercise recommendations for different types of physical conditions.
+
+For this project, a cascade methodology has been used:
+- Problem detection
+- Conceptualization
+- Formalization
+- Implementation
+- Validation and test
+
+Feel free to check more details in the full [report](./Memory/report.pdf) (Spanish).
+
+## Prerequisites
+To visualize the ontology you have to download [Protégé](https://protege.stanford.edu/).
+
+## How to run
+The executable of the CLIPS interpret is already in the repository:
 ```
 ./clips
 ```
-
 and then to execute the code:
-
 ```
 (clear)
 (load practica.clp)
@@ -17,10 +38,8 @@ and then to execute the code:
 (run)
 ```
 
-
 ## Example
-Input:
-
+Input
 ```
 ========================================================================
 ===============
@@ -98,7 +117,7 @@ Tiempo: 30
 -----------------------------------
 ============================================
 ============================================
-16[Dia5]
+[Dia5]
 ============================================
 ============================================
 [Dia6]
