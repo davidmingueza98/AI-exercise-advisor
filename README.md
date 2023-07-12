@@ -1,14 +1,12 @@
 # AI-exercise-advisor
-Exercise recommender for people with more than 65 years. The current version of the engine is in Spanish.
-
-This project was developed with the help of [glowww](https://github.com/glowww) and Pere Vergés.
+Exercise advisor for people with more than 65 years. The current version of the engine is in Spanish.
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Getting Started](#getting-started)
-    - [Build With](#build-with)
-    - [Prerequisites](#prerequisites)
+- [Prerequisites](#prerequisites)
 - [Usage](#usage)
+- [Built With](#built-with)
+- [Credits](#credits)
 - [Example](#example)
 
 ## Introduction
@@ -32,16 +30,11 @@ For this project, a cascade methodology has been used:
 
 Feel free to check more details in the full [report](./Memoria/report.pdf) (Spanish).
 
-## Getting started
-
-### Build With
-[CLIPS](https://www.clipsrules.net/). Rule-based programming language useful for creating expert systems.
-
-### Prerequisites
+## Prerequisites
 To visualize the ontology you have to download and install [Protégé](https://protege.stanford.edu/).
 
 ## Usage
-CLIPS interpret is already in the repository:
+Execute the interpret that is already in the repository:
 ```
 ./clips
 ```
@@ -52,6 +45,12 @@ and then to execute the code:
 (reset)
 (run)
 ```
+
+## Built With
+- [CLIPS](https://www.clipsrules.net/). Rule-based programming language useful for creating expert systems.
+
+## Credits
+This project was developed with the help of [glowww](https://github.com/glowww) and Pere Vergés.
 
 ## Example
 Input
