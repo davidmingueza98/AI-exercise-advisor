@@ -5,8 +5,9 @@ This project was developed with the help of [glowww](https://github.com/glowww) 
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Build With](#build-with)
-- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+    - [Build With](#build-with)
+    - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Example](#example)
 
@@ -31,10 +32,12 @@ For this project, a cascade methodology has been used:
 
 Feel free to check more details in the full [report](./Memoria/report.pdf) (Spanish).
 
-## Build With
+## Getting started
+
+### Build With
 [CLIPS](https://www.clipsrules.net/). Rule-based programming language useful for creating expert systems.
 
-## Prerequisites
+### Prerequisites
 To visualize the ontology you have to download and install [Protégé](https://protege.stanford.edu/).
 
 ## Usage
